@@ -1,9 +1,14 @@
+/*importation de la bibliothèque react*/
 import React from 'react';
+/*importationde react dom*/
 import ReactDOM from 'react-dom/client';
+/*importation du fichier css*/
 import './index.css';
+/*importation du composant App*/
 import App from './App';
+/*importation de la fonction reportWebVitals*/
 import reportWebVitals from './reportWebVitals';
-
+/*fonction pour effectuer le rendu du composant App*/
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
